@@ -1,0 +1,78 @@
+html, body {
+    background: #5C258D;
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);
+    background: linear-gradient(to right, #4389A2, #5C258D);
+    height: 100%;
+    min-width: 500px;
+  }
+
+  .container {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height :    100%;
+    width:      100%;
+  } 
+
+  .blocHaut{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height : 180px;
+    background: #fff;
+    border-radius: 15px;
+
+  }
+  .blocBas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 80px;
+    font-size: 1.5em;
+    font-family : Arial, Helvetica, sans-serif;
+    text-transform : uppercase;
+    font-weight: bold;
+    color : #fff;
+    margin-top: 15px;
+    border-radius: 15px;
+    /* padding-top: 15px; */
+    background: #ff9966;
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    cursor: pointer;
+  }
+
+
+  #citation {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-size: 2.5em;
+    padding-top: 10px;
+    font-family: 'Satisfy', curve;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+  }
+
+  .trait{
+    height : 4px;
+    width: 150px;
+    background-color: #827c7c;
+}
+
+  #auteur {
+    margin-top: 13px;
+    font-size: 2em;
+    font-style: italic;
+  }
+  
+  
+  #citation:before {
+      content: open-quote;
+  }
+  
+  #citation:after {
+      content: close-quote;
+  }
+  
+
